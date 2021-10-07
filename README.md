@@ -6,10 +6,10 @@ inventory of the store's items after the instruction is done. Summarize should s
 
 processInventory function reads the item type and quantity from the input file and update the store’s inventory of the indicated item type.
 
-processPurchase function should read the customer’s name, the item type and the quantity. The function should look up the customer in the customer database.
-(creating a new customer record if this is a 1st-time customer) and increment the number of items purchased by this customer in their customer record. 
+processPurchase function reads the customer’s name, the item type and the quantity. The function looks up the customer in the customer database.
+(creating a new customer record if this is a 1st-time customer) and increments the number of items purchased by this customer in their customer record. 
 
-processSummarize() – This command should print out a summary. The summary should first display the number of Bottles, Rattles, and Diapers remaining in inventory 
-at the time of the Summarize command. Next, the summary should display how many different customers have come to the store for purchases. Finally, the summary should 
-report which customer purchased the most diapers (and how many diapers), who purchased the most bottles (and how many) and who purchased the most rattles (and 
-how many). If a certain item has not been purchased by anybody, then the summary should indicate that.
+processSummarize function prints out a summary which first displays the number of Bottles, Rattles, and Diapers remaining in inventory 
+at the time of the Summarize command. Next, the summary displays how many different customers have come to the store for purchases. Finally, the summary
+reports which customer purchased the most diapers (and how many diapers), who purchased the most bottles (and how many) and who purchased the most rattles (and 
+how many). If a certain item has not been purchased by anybody, then the summary indicates that.
